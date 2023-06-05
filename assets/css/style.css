@@ -92,9 +92,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-cost,
-.benefit-brand {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -105,9 +103,7 @@ h3 {
     text-align: center;
 }
 
-.benefit-lead img,
-.benefit-cost img,
-.benefit-brand img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
