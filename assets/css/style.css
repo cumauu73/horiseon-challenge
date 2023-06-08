@@ -1,3 +1,4 @@
+/* no padding and margin for all pages */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,10 +15,11 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* social media management color */
 .smm {
     color: pink;
 }
-
+/* online reputation management */
 .orm {
     color: turquoise;
 }
@@ -25,7 +27,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* for color matching initial header and h1 */
 .seo, .initial {
     color: greenyellow;
 }
@@ -55,7 +57,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* main body picture specification */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,12 +66,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* image position for search engine optimisation and socialmedia marketing*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* image position for online reputution management */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -80,7 +82,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* section class benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -95,6 +97,11 @@ p {
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 h3 {
@@ -122,11 +129,8 @@ h3 {
     max-height: 200px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
+/* all bottom footer for copyright */
 .footer {
     padding: 30px;
     clear: both;
